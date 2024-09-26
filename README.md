@@ -14,9 +14,15 @@ To write a python program for simulating ARP protocols using TCP.
 3. Server maintains the table in which IP and corresponding MAC addresses are
 stored.
 4. Read the IP address which is send by the client.
-5. Map the IP address with its MAC address and return the MAC address to client.
-P
+5. Map the IP address with its MAC address and return the MAC address to client.P
+
 ## PROGRAM - ARP
+
+```
+## NAME : P Keerthana
+## REG NO. : 212223240069
+```
+
 ## CLIENT 
 ```
 import socket
@@ -45,6 +51,13 @@ while True:
  print("MAC Address",s.recv(1024).decode())
 ```
 ## OUPUT - ARP
+
+## CLIENT 
+![Screenshot 2024-09-26 114234](https://github.com/user-attachments/assets/7021ba9d-0551-4f24-acf7-3ec6f1943ba5)
+
+## SERVER
+![Screenshot 2024-09-26 114244](https://github.com/user-attachments/assets/0b9bf8da-89c0-4dce-a70f-9db17da21579)
+
 
 ## PROGRAM - RARP
 ## CLIENT
@@ -77,6 +90,12 @@ while True:
 ```
 
 ## OUPUT -RARP
+
+## CLIENT 
+![image](https://github.com/user-attachments/assets/62933394-fe31-4fc0-bbd2-03a0912c5993)
+
+## SERVER 
+![image](https://github.com/user-attachments/assets/ce6ecefd-5d51-473b-91b8-8a07f73b2dbb)
 
 
 ## RESULT
