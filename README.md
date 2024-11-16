@@ -20,11 +20,6 @@ stored.
 
 ## PROGRAM - ARP
 
-```
-NAME : P Keerthana
-REG NO. : 212223240069
-```
-
 ## CLIENT 
 ```
 import socket
